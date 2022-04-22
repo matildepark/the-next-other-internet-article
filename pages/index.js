@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
 
   const qualifier = ['An explication of', 'Tracking the rise of', 'A prehistory of', 'A posthistory of', 'The remaking of', 'Rethinking', 'Challenging preconceptions of', 'Deconstructing'];
-  const subqualifier = ['churches', 'states', 'friendships', 'Riven: The Sequel to Myst', 'the cult classic "System Shock 2"', 'Bitcoin Christianity']
+  const subqualifier = ['churches', 'states', 'friendships', 'Riven: The Sequel to Myst', 'the cult classic "System Shock 2"', 'Bitcoin Christianity', 'Decentralized Finance', 'the webring renaissance', 'permacomputing', 'viral marketing']
   const topic2 = ['Software', 'Systems', 'Lore', 'Mythology', 'Divination', 'DAOs', 'Goods', 'Squads', 'Co-operatives', 'Infrastructure', 'Networks', 'Forests', 'Gangs', 'Syndicates', 'Protocols', 'Governance', 'Subcultures', 'Alechemy', 'Premonitions', 'Destiny'];
   const topic1 = ['Hermetic', 'Zoomer', 'Catholic', 'Experimental', 'Memetic', 'Catastrophic', 'Apocalyptic', 'Public', 'Composable', 'Modular', 'Market', 'Astrological', 'Occult', 'Gen X'];
   const coinFlip = (Math.floor(Math.random() * 2) == 0);
