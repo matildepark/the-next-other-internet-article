@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
 
   const qualifier = ['An explication of', 'Tracking the rise of', 'A prehistory of', 'A posthistory of', 'The remaking of', 'Rethinking', 'Challenging preconceptions of', 'Deconstructing'];
-  const subqualifier = ['churches', 'states', 'friendships', 'ICOs', 'altcoins', 'chains', 'vibes', 'wallets', 'version control', 'software development', 'brand identity', 'exchanges', 'securities', 'Riven: The Sequel to Myst', 'the cult classic "System Shock 2"', 'Bitcoin Christianity', 'decentralized finance', 'the webring renaissance', 'permacomputing', 'viral marketing']
+  const subqualifier = ['churches', 'states', 'friendships', 'ICOs', 'altcoins', 'chains', 'vibes', 'wallets', 'version control', 'software development', 'brand identity', 'exchanges', 'securities', 'Bitcoin Christianity', 'decentralized finance', 'the webring renaissance', 'permacomputing', 'viral marketing']
   const topic2 = ['Software', 'Systems', 'Lore', 'Mythology', 'Inventories', 'Representation', 'Communities', 'Cosmology', 'Invocations', 'Forks', 'Divination', 'Artworks', 'DAOs', 'Goods', 'Squads', 'Detatchments', 'Collectives', 'Commons', 'Co-operatives', 'Infrastructure', 'Networks', 'Forests', 'Gangs', 'Syndicates', 'Protocols', 'Governance', 'Subcultures', 'Alechemy', 'Premonitions', 'Destiny'];
   const topic1 = ['Hermetic', 'Millennial', 'Arcane', 'Mystic', 'Weird', 'Zoomer', 'Cyber', 'Catholic', 'Experimental', 'Memetic', 'Catastrophic', 'Apocalyptic', 'Public', 'Composable', 'Modular', 'Market', 'Astrological', 'Occult', 'Gen X'];
   const coinFlip = (Math.floor(Math.random() * 2) == 0);
